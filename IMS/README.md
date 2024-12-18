@@ -20,3 +20,13 @@ src/main/java/com/inventory
 │   ├── stubs
 │   └── real
 └── utils
+```
+
+## Hybrid Test Plan
+1. Top-Down Testing
+   - Testing the ProductController
+   - [Solution - src/test/java/frank/ims/controller/ProductControllerTest.java](src/test/java/frank/ims/controller/ProductControllerTest.java)
+
+2. Bottom-Up Testing
+   -  Testing the ProductServiceTest
+   - [Solution - src/test/java/frank/ims/service/real/ProductServiceTest.java](src/test/java/frank/ims/service/real/ProductServiceTest.java)
